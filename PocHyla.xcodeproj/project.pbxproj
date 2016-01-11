@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		267BD8ED1C3140E900C50927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD8EC1C3140E900C50927 /* main.m */; };
 		267BD8F01C3140E900C50927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD8EF1C3140E900C50927 /* AppDelegate.m */; };
-		267BD8F31C3140E900C50927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD8F21C3140E900C50927 /* ViewController.m */; };
+		267BD8F31C3140E900C50927 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD8F21C3140E900C50927 /* MainViewController.m */; };
 		267BD8F61C3140E900C50927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267BD8F41C3140E900C50927 /* Main.storyboard */; };
 		267BD8F81C3140E900C50927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267BD8F71C3140E900C50927 /* Assets.xcassets */; };
 		267BD8FB1C3140E900C50927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267BD8F91C3140E900C50927 /* LaunchScreen.storyboard */; };
+		267BD9051C3144D600C50927 /* BSHylaService.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD9041C3144D600C50927 /* BSHylaService.m */; };
+		267BD9091C3145E000C50927 /* BSHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD9081C3145E000C50927 /* BSHTTPManager.m */; };
+		267BD90D1C31461400C50927 /* BSServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD90C1C31461400C50927 /* BSServiceModel.m */; };
+		267BD9111C3154BC00C50927 /* SBMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD9101C3154BC00C50927 /* SBMappingProvider.m */; };
+		267BD9141C3154F700C50927 /* SBMappingProvider+SBServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD9131C3154F700C50927 /* SBMappingProvider+SBServiceModel.m */; };
+		267BD9171C31833700C50927 /* BSHylaActivationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD9161C31833700C50927 /* BSHylaActivationViewController.m */; };
+		267BD91A1C32B33500C50927 /* BSInjectJsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD9191C32B33500C50927 /* BSInjectJsModel.m */; };
+		267BD91D1C32B37000C50927 /* SBMappingProvider+BSInjectJsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BD91C1C32B37000C50927 /* SBMappingProvider+BSInjectJsModel.m */; };
+		E5418A3EED1C4C0E38A1C118 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DADCC85D03C34D3C86119D0E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,31 @@
 		267BD8EC1C3140E900C50927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		267BD8EE1C3140E900C50927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		267BD8EF1C3140E900C50927 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		267BD8F11C3140E900C50927 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		267BD8F21C3140E900C50927 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		267BD8F11C3140E900C50927 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		267BD8F21C3140E900C50927 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		267BD8F51C3140E900C50927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		267BD8F71C3140E900C50927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		267BD8FA1C3140E900C50927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		267BD8FC1C3140E900C50927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267BD9031C3144D600C50927 /* BSHylaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSHylaService.h; path = Service/BSHylaService.h; sourceTree = "<group>"; };
+		267BD9041C3144D600C50927 /* BSHylaService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSHylaService.m; path = Service/BSHylaService.m; sourceTree = "<group>"; };
+		267BD9071C3145E000C50927 /* BSHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSHTTPManager.h; path = Networking/BSHTTPManager.h; sourceTree = "<group>"; };
+		267BD9081C3145E000C50927 /* BSHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSHTTPManager.m; path = Networking/BSHTTPManager.m; sourceTree = "<group>"; };
+		267BD90B1C31461400C50927 /* BSServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSServiceModel.h; path = Models/BSServiceModel.h; sourceTree = "<group>"; };
+		267BD90C1C31461400C50927 /* BSServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSServiceModel.m; path = Models/BSServiceModel.m; sourceTree = "<group>"; };
+		267BD90F1C3154BC00C50927 /* SBMappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBMappingProvider.h; path = Mapping/SBMappingProvider.h; sourceTree = "<group>"; };
+		267BD9101C3154BC00C50927 /* SBMappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBMappingProvider.m; path = Mapping/SBMappingProvider.m; sourceTree = "<group>"; };
+		267BD9121C3154F700C50927 /* SBMappingProvider+SBServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SBMappingProvider+SBServiceModel.h"; path = "Mapping/SBMappingProvider+SBServiceModel.h"; sourceTree = "<group>"; };
+		267BD9131C3154F700C50927 /* SBMappingProvider+SBServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SBMappingProvider+SBServiceModel.m"; path = "Mapping/SBMappingProvider+SBServiceModel.m"; sourceTree = "<group>"; };
+		267BD9151C31833700C50927 /* BSHylaActivationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSHylaActivationViewController.h; sourceTree = "<group>"; };
+		267BD9161C31833700C50927 /* BSHylaActivationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSHylaActivationViewController.m; sourceTree = "<group>"; };
+		267BD9181C32B33500C50927 /* BSInjectJsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSInjectJsModel.h; path = Models/BSInjectJsModel.h; sourceTree = "<group>"; };
+		267BD9191C32B33500C50927 /* BSInjectJsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSInjectJsModel.m; path = Models/BSInjectJsModel.m; sourceTree = "<group>"; };
+		267BD91B1C32B37000C50927 /* SBMappingProvider+BSInjectJsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SBMappingProvider+BSInjectJsModel.h"; path = "Mapping/SBMappingProvider+BSInjectJsModel.h"; sourceTree = "<group>"; };
+		267BD91C1C32B37000C50927 /* SBMappingProvider+BSInjectJsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SBMappingProvider+BSInjectJsModel.m"; path = "Mapping/SBMappingProvider+BSInjectJsModel.m"; sourceTree = "<group>"; };
+		28FBA63DE39FC56848A2D29D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BFEB6709AB7C7FD4B79C04BC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DADCC85D03C34D3C86119D0E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5418A3EED1C4C0E38A1C118 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D9436CCA4765C5ED5E6B2D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DADCC85D03C34D3C86119D0E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		267BD8DF1C3140E900C50927 = {
 			isa = PBXGroup;
 			children = (
 				267BD8EA1C3140E900C50927 /* PocHyla */,
 				267BD8E91C3140E900C50927 /* Products */,
+				F23086FEFAF600D5CF6FF439 /* Pods */,
+				1D9436CCA4765C5ED5E6B2D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +97,15 @@
 		267BD8EA1C3140E900C50927 /* PocHyla */ = {
 			isa = PBXGroup;
 			children = (
+				267BD90A1C3145E600C50927 /* Models */,
+				267BD9061C31451B00C50927 /* Networking */,
+				267BD9021C3144AA00C50927 /* Service */,
 				267BD8EE1C3140E900C50927 /* AppDelegate.h */,
 				267BD8EF1C3140E900C50927 /* AppDelegate.m */,
-				267BD8F11C3140E900C50927 /* ViewController.h */,
-				267BD8F21C3140E900C50927 /* ViewController.m */,
+				267BD8F11C3140E900C50927 /* MainViewController.h */,
+				267BD8F21C3140E900C50927 /* MainViewController.m */,
+				267BD9151C31833700C50927 /* BSHylaActivationViewController.h */,
+				267BD9161C31833700C50927 /* BSHylaActivationViewController.m */,
 				267BD8F41C3140E900C50927 /* Main.storyboard */,
 				267BD8F71C3140E900C50927 /* Assets.xcassets */,
 				267BD8F91C3140E900C50927 /* LaunchScreen.storyboard */,
@@ -79,6 +123,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		267BD9021C3144AA00C50927 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				267BD9031C3144D600C50927 /* BSHylaService.h */,
+				267BD9041C3144D600C50927 /* BSHylaService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		267BD9061C31451B00C50927 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				267BD9071C3145E000C50927 /* BSHTTPManager.h */,
+				267BD9081C3145E000C50927 /* BSHTTPManager.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		267BD90A1C3145E600C50927 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				267BD90E1C3151D900C50927 /* Mapping */,
+				267BD90B1C31461400C50927 /* BSServiceModel.h */,
+				267BD90C1C31461400C50927 /* BSServiceModel.m */,
+				267BD9181C32B33500C50927 /* BSInjectJsModel.h */,
+				267BD9191C32B33500C50927 /* BSInjectJsModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		267BD90E1C3151D900C50927 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				267BD90F1C3154BC00C50927 /* SBMappingProvider.h */,
+				267BD9101C3154BC00C50927 /* SBMappingProvider.m */,
+				267BD9121C3154F700C50927 /* SBMappingProvider+SBServiceModel.h */,
+				267BD9131C3154F700C50927 /* SBMappingProvider+SBServiceModel.m */,
+				267BD91B1C32B37000C50927 /* SBMappingProvider+BSInjectJsModel.h */,
+				267BD91C1C32B37000C50927 /* SBMappingProvider+BSInjectJsModel.m */,
+			);
+			name = Mapping;
+			sourceTree = "<group>";
+		};
+		F23086FEFAF600D5CF6FF439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28FBA63DE39FC56848A2D29D /* Pods.debug.xcconfig */,
+				BFEB6709AB7C7FD4B79C04BC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 267BD8FF1C3140E900C50927 /* Build configuration list for PBXNativeTarget "PocHyla" */;
 			buildPhases = (
+				FB910ADE9EA83BC45BFE3D7E /* Check Pods Manifest.lock */,
 				267BD8E41C3140E900C50927 /* Sources */,
 				267BD8E51C3140E900C50927 /* Frameworks */,
 				267BD8E61C3140E900C50927 /* Resources */,
+				ED205E8782D06F8C89EE279F /* Embed Pods Frameworks */,
+				0942611809D07017FE8E47A8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +243,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0942611809D07017FE8E47A8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED205E8782D06F8C89EE279F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB910ADE9EA83BC45BFE3D7E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		267BD8E41C3140E900C50927 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267BD8F31C3140E900C50927 /* ViewController.m in Sources */,
+				267BD8F31C3140E900C50927 /* MainViewController.m in Sources */,
+				267BD9111C3154BC00C50927 /* SBMappingProvider.m in Sources */,
+				267BD91A1C32B33500C50927 /* BSInjectJsModel.m in Sources */,
+				267BD9171C31833700C50927 /* BSHylaActivationViewController.m in Sources */,
 				267BD8F01C3140E900C50927 /* AppDelegate.m in Sources */,
+				267BD91D1C32B37000C50927 /* SBMappingProvider+BSInjectJsModel.m in Sources */,
+				267BD90D1C31461400C50927 /* BSServiceModel.m in Sources */,
+				267BD9051C3144D600C50927 /* BSHylaService.m in Sources */,
+				267BD9091C3145E000C50927 /* BSHTTPManager.m in Sources */,
 				267BD8ED1C3140E900C50927 /* main.m in Sources */,
+				267BD9141C3154F700C50927 /* SBMappingProvider+SBServiceModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +416,7 @@
 		};
 		267BD9001C3140E900C50927 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FBA63DE39FC56848A2D29D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PocHyla/Info.plist;
@@ -272,6 +428,7 @@
 		};
 		267BD9011C3140E900C50927 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEB6709AB7C7FD4B79C04BC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PocHyla/Info.plist;
@@ -300,6 +457,7 @@
 				267BD9011C3140E900C50927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
